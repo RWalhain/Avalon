@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    text-align: center; 
+}
+
+#start-button {
+    padding: 20px 40px; /* Larger padding for the Start button */
+    font-size: 24px;    /* Bigger text */
+    border-radius: 10px; /* Optional: rounded corners */
+    background-color: #555; /* Optional: distinct background color */
+    color: white;
+    cursor: pointer;
+}
+
+
+.hidden {
+    display: none;
+}
